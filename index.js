@@ -42,5 +42,5 @@ Expect concatOdds([1, 3, 5], [5, 3, 1]) to be equal to [1, 1, 3, 3, 5, 5]
 // odd numbers should be sorted and be in an ascending order
 // should return an empty array if both inputs are even numbers
 
-// function test
+// functional test
 
