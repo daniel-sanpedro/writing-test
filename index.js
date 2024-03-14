@@ -24,7 +24,6 @@
 // the function will return decimal numbers
 
 // concatOdd
-
 // test should return an array
 Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an array
 
@@ -44,3 +43,11 @@ Expect concatOdds([1, 3, 5], [5, 3, 1]) to be equal to [1, 1, 3, 3, 5, 5]
 
 // functional test
 
+// allow guest to check out (without an account) or as a logged in user
+// they should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
+ 
+// do not allow guest to check out if cart is empty 
+// what needs to be shown to the user at each step of check out
+// what behaviors of this feature does the prompt miss or gloss over
+// choose between credit or debit
+// have a promt to insure cart is correct before checkout
